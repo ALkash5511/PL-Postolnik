@@ -1,6 +1,7 @@
 import math
-x = -2.235*10**-2
-y = 2.23
-z = 15.221
-s = math.exp(math.fabs(x - y)) * (math.pow((math.fabs(x - y)), (x + y))) / (math.atan(x) + math.atan(z)) + math.pow((x**6 + math.pow(math.log(y), 2)), 1/3)
-print ("Ответ: = {0:.4f}".format(s))
+x = 1.825*10**2
+y = 18.225
+z = -3.298*10**-2
+s = abs(math.pow(x, (y/x)) - math.pow((y/x), 1/3)) + (y - x) * (math.cos(y) - (z / (y - x))) / (1 + math.pow((y - x), 2))
+print ("Ответ: {0:.5f}".format(s))
+print (s)
