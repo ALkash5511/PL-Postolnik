@@ -1,4 +1,3 @@
-
 x = int(input("Введите число Х: "))
 n = int(input("Введите число N: "))
 def fuc(n):
