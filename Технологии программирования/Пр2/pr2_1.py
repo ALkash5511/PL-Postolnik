@@ -1,0 +1,23 @@
+print("Арифмитические операции и сравнения")
+
+x = int(input("Введите первое целое число (x): "))
+y = int(input("Введите второе целое число (y): "))
+
+print("Арифмитические операции:")
+print(f"{x} + {y} = {x + y}")
+print(f"{x} - {y} = {x - y}")
+print(f"{x} * {y} = {x * y}")
+print(f"{x} / {y} = {round(x / y, 2)}")
+print(f"{x} // {y} = {x // y}")
+print(f"{x} % {y} = {x % y}")
+print(f"-{x} = {-x}")
+print(f"-{y} = {-y}")
+print(f"{x} ** {y} = {x ** y}")
+
+print("Операции сравнения:")
+print(f"{x} < {y} = {x < y}")
+print(f"{x} <= {y} = {x <= y}")
+print(f"{x} > {y} = {x > y}")
+print(f"{x} >= {y} = {x >= y}")
+print(f"{x} != {y} = {x != y}")
+print(f"{x} == {y} = {x == y}")
